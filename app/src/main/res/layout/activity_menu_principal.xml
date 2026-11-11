@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".Menu_Principal"
+    android:background="@drawable/fondo2">
+
+    <TextView
+        android:id="@+id/txtSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="¡Hola, Amigo/a! 👋"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/menu_principal"
+        android:textColor="@color/red"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="4dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/aguila" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:onClick="iringles"
+        android:backgroundTint="@color/red"
+        android:text="🇬🇧 INGLÉS"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnJuegos"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:onClick="irjuegos"
+        android:backgroundTint="@color/blue"
+        android:text="🎮 JUEGOS"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/txtoperaciones"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:onClick="irmatematicas"
+        android:backgroundTint="@color/verdeoscuro"
+        android:text="🔢 MATEMÁTICAS"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPerfil"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="irPerfil"
+        android:backgroundTint="@color/purple"
+        android:text="👤 PERFIL Y PUNTOS"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

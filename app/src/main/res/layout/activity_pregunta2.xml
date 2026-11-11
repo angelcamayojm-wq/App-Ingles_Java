@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo8"
+    android:gravity="center_horizontal"
+    tools:context=".Preguntas1">
+
+
+    <TextView
+        android:id="@+id/txtpregunta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo34"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/red"
+        android:gravity="center" />
+
+
+    <ImageView
+        android:onClick="sonarpregunta2"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/preguntaanimal" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:onClick="sonarincorrecto"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/preguntaperro" />
+
+        <ImageView
+            android:id="@+id/opcion2"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:onClick="sonarcorrecto"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/preguntavaca"
+            />
+
+        <ImageView
+            android:id="@+id/opcion3"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:onClick="sonarincorrecto"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/preguntagato"
+            android:contentDescription="Opción 3" />
+
+        <ImageView
+            android:id="@+id/opcion4"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:onClick="sonarincorrecto"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/preguntaconejo"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

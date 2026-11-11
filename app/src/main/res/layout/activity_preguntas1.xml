@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondocolores"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo33"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/red"
+        android:gravity="center" />
+
+
+    <ImageView
+        android:onClick="sonarpregunta1"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/paletadecolores" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:useDefaultMargins="true">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:onClick="sonarincorrecto"
+            android:src="@drawable/colorazul" />
+
+        <ImageView
+            android:id="@+id/opcion2"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:onClick="sonarincorrecto"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/coloramarillo"
+            />
+
+        <ImageView
+            android:id="@+id/opcion3"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:onClick="sonarcorrecto"
+            android:src="@drawable/colorrojo"
+            android:contentDescription="Opción 3" />
+
+        <ImageView
+            android:id="@+id/opcion4"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            android:onClick="sonarincorrecto"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/colorverde"
+            />
+
+    </GridLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">App Ingles</string>
+    <string name="titulo1">MI APP INGLES</string>
+    <string name="titulo">INICIAR</string>
+    <string name="titulo1.1">Vocabulario</string>
+    <string name="titulo1.2">Cuestionario</string>
+    <string name="titulo2">Menu Principal</string>
+    <string name="titulo3">Colores</string>
+    <string name="titulocolores">COLORES</string>
+    <string name="titulo4">Animales</string>
+    <string name="tituloanimales">ANIMALES</string>
+    <string name="titulo5">Vocales</string>
+    <string name="titulovocales">VOCALES</string>
+    <string name="titulo6">Frutas</string>
+    <string name="titulofrutas">FRUTAS</string>
+    <string name="titulo7">Numeros</string>
+    <string name="titulonumeros">NUMEROS</string>
+    <string name="titulo8">Morado</string>
+    <string name="titulo9">Azul</string>
+    <string name="titulo10">Rojo</string>
+    <string name="titulo11">Verde</string>
+    <string name="titulo12">Naranja</string>
+    <string name="titulo13">Vaca</string>
+    <string name="titulo14">Perro</string>
+    <string name="titulo15">Gato</string>
+    <string name="titulo16">Cerdo</string>
+    <string name="titulo17">Conejo</string>
+    <string name="titulo18">A</string>
+    <string name="titulo19">E</string>
+    <string name="titulo20">I</string>
+    <string name="titulo21">O</string>
+    <string name="titulo22">U</string>
+    <string name="titulo23">Mango</string>
+    <string name="titulo24">Fresa</string>
+    <string name="titulo25">Uva</string>
+    <string name="titulo26">Manzana</string>
+    <string name="titulo27">Banano</string>
+    <string name="titulo28">Uno</string>
+    <string name="titulo29">Dos</string>
+    <string name="titulo30">Tres</string>
+    <string name="titulo31">Cuatro</string>
+    <string name="titulo32">Cinco</string>
+    <string name="titulo33">¿CUAL ES EL COLOR ROJO?</string>
+    <string name="titulo34">¿CUAL ES LA VACA?</string>
+    <string name="titulo35">¿CUAL ES LA VOCAL O?</string>
+    <string name="titulo36">¿CUAL ES EL MANGO?</string>
+    <string name="titulo37">¿CUAL ES EL NUMERO TRES?</string>
+    <string name="titulo38">SUMA</string>
+    <string name="titulo39">Num1</string>
+    <string name="titulo40">Num2</string>
+    <string name="titulo41">Num3</string>
+    <string name="ingrese_numero_1">INGRESE NUMERO 1</string>
+    <string name="Num2">Num2</string>
+    <string name="Num3">Num3</string>
+    <string name="ingrese_numero_3">ingrese_numero_3</string>
+    <string name="ingrese_numero_2">ingrese_numero_2</string>
+    <string name="calcular">Calcular</string>
+    <string name="Resultado">Resultado es:</string>
+    <string name="Operaciones">Operaciones</string>
+    <string name="Restar">Restar</string>
+    <string name="Multiplicar">Multiplicar</string>
+    <string name="Dividir">Dividir</string>
+    <string name="Sumar">Sumar</string>
+    <string name="Datos">Datos</string>
+    <string name="Genero">Genero</string>
+    <string name="Gustos">Gustos</string>
+    <string name="leer">Leer</string>
+    <string name="caminar" />
+    <string name="jugar">jugar</string>
+    <string name="Caminar">Caminar</string>
+    <string name="INGLES">INGLES</string>
+    <string name="matematicas">Matematicas</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="juegos">Juegos</string>
+    <string-array name="Ciudad">
+        <item>Seleccione la ciudad</item>
+        <item>Popayan</item>
+        <item>Bogotá</item>
+        <item>Medellín</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Cúcuta</item>
+        <item>Bucaramanga</item>
+        <item>Pereira</item>
+        <item>Santa Marta</item>
+        <item>Manizales</item>
+    </string-array>
+
+
+
+</resources>
